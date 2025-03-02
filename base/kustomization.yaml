@@ -1,0 +1,8 @@
+resources:
+- deploy.yaml
+- service.yaml
+- backendconfig.yaml
+- hpa.yaml
+- ing.yaml
+- prod-issuer.yaml
+- /prod-cert.yaml

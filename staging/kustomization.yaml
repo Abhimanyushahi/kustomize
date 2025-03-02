@@ -1,0 +1,6 @@
+resources:
+- ../base
+
+patches:
+- path: p-prod-issuer.yaml
+- path: p-prod-cert.yaml

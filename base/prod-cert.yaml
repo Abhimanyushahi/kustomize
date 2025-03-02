@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: prod-cert
+  namespace: staging
+spec:
+  dnsNames:
+  - '*.tecsolution.solutions'
+  secretName: prod-sec
+  issuerRef:
+    name: prod-ca-issuer
+    kind: ClusterIssuer
